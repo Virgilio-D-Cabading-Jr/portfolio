@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+
+import HomeComp from './components/HomeComp';
+
+////////////////////////////////////////////////////
+//  ROOT APPLICATION
+////////////////////////////////////////////////////
 
 function App() {
   return (
-    <div >
-      <h1>Hello World</h1>
-    </div>
+    <HomeComp />
   );
 }
 

@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.round {
+  border-radius: 20px;
+  padding: 2% 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.half-transparent {
+  opacity: 0.5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Home View */
+
+.bg-makati {
+  background: url("https://i.ibb.co/M1jbK1K/World-1-and-0-blue.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* overflow: scroll; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-pic {
+  width: 40vh;
+  border-radius: 50%;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.btn-row {
+  width: 100%;
+}
+
+.home-btn {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-btn:hover, .home-btn:active {
+  color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-name {
+  font-size: 4rem;
+}
+
+/* Nav Bar */
+
+.bg-navy-gradient {
+  background: rgb(8,5,75);
+  background: linear-gradient(120deg, rgba(8,5,75,1) 0%, rgba(76,76,205,1) 40%, rgba(8,5,75,1) 100%);
+}
+
+.nav-btns {
+  width: 50%
+}
+
+.nav-btn-bg-clear {
+  background-color: transparent;
+  color: white;
+}
+
+.nav-btn-bg-clear:hover, .nav-btn-bg-clear:active {
+  background-color: yellow;
+  color: navy;
+}
+
+/* About Me View */
+
+.bg-lblue {
+  background-color: dodgerblue;
+}
+
+.topic-pic-header {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+}
+
+.text-linen {
+  color: white;
+  text-shadow: 1px 1px darkslategrey;
+}
+
+.to-project-btn:hover, .to-project-btn:active {
+  background-color: yellow;
+  /* color: yellow; */
+}
+
+/* Project View */
+
+.project-screenshot {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact Info View */
+
+.txt-rt {
+  text-align: right;
+}
+
+.img-thumb {
+  height: 50px;
 }
