@@ -1,6 +1,7 @@
 import './App.css';
 
 import HomeComp from './components/HomeComp';
+import NavBarComp from './components/NavBarComp';
 
 ////////////////////////////////////////////////////
 //  ROOT APPLICATION
@@ -9,6 +10,7 @@ import HomeComp from './components/HomeComp';
 function App() {
   return (
     <HomeComp />
+    <NavBarComp />
   );
 }
 
