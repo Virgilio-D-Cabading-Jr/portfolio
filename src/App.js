@@ -9,8 +9,10 @@ import NavBarComp from './components/NavBarComp';
 
 function App() {
   return (
-    <HomeComp />
-    <NavBarComp />
+    <div>
+      <HomeComp />
+      <NavBarComp />
+    </div>
   );
 }
 
