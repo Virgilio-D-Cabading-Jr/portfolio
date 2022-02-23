@@ -25,4 +25,4 @@ const HomeComp = () => {
   </div>)
 }
 
-export default HomeView
+export default HomeComp
