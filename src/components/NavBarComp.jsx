@@ -24,7 +24,7 @@ const NavBarComp = () => {
                     <div className='row nav-btns align-items-center'>
                         <Link to="/portfolio/aboutme" className='col btn nav-btn-bg-clear' >
                             <strong>About Me</strong>
-                        </ScrollLink>
+                        </Link>
                         <Link to="/portfolio/projects" className='col btn nav-btn-bg-clear' >
                             <strong>Projects</strong>
                         </Link>
