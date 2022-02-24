@@ -1,8 +1,10 @@
 import './App.css';
+import { Element } from 'react-scroll';
 
 import HomeComp from './components/HomeComp';
 import NavBarComp from './components/NavBarComp';
 import AboutMeComp from './components/AboutMeComp';
+import React from 'react';
 
 ////////////////////////////////////////////////////
 //  ROOT APPLICATION
@@ -11,9 +13,13 @@ import AboutMeComp from './components/AboutMeComp';
 function App() {
   return (
     <div>
-      <HomeComp />
-      <NavBarComp />
-      <AboutMeComp id="aboutme" />
+      <React.Fragment>
+        <HomeComp />
+        <NavBarComp />
+        <Element id='aboutme' name='aboutme' >
+          <AboutMeComp />
+        </Element>
+      </React.Fragment>
     </div>
   );
 }
