@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Scroll, { ScrollLink } from 'react-scroll';
 
 ////////////////////////////////////////////////////
 //  NAVIGATION BAR COMPONENT
@@ -23,19 +22,13 @@ const NavBarComp = () => {
                     </Link>
                     {/* **** Link to Views ******** */}
                     <div className='row nav-btns align-items-center'>
-                        <ScrollLink
-                            to="aboutme"
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                            className="scroll-link-class"
-                            activeClass="scroll-link-active-class">
+                        <Link to="/portfolio/aboutme" className='col btn nav-btn-bg-clear' >
                             <strong>About Me</strong>
                         </ScrollLink>
-                        <Link to="/projects" className='col btn nav-btn-bg-clear' >
+                        <Link to="/portfolio/projects" className='col btn nav-btn-bg-clear' >
                             <strong>Projects</strong>
                         </Link>
-                        <Link to="/contactinfo" className='col btn nav-btn-bg-clear' >
+                        <Link to="/portfolio/contactinfo" className='col btn nav-btn-bg-clear' >
                             <strong>Contact Info</strong>
                         </Link>
                     </div>

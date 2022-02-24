@@ -23,8 +23,17 @@ const ProjectsView = () => {
             <li>Served as SCRUM leader in Agile Development process</li>
             <li>Planned and implemented a stack based memory tool with dynamic game play</li>
           </ul>
+          <div className='row'>
+            <Link className='col btn text-danger'
+              to="http://18.188.120.249/">
+              <h4>Live App</h4>
+            </Link>
+            <Link className='col btn text-danger'
+              to="https://github.com/Virgilio-D-Cabading-Jr/Scrutineer">
+              <h4>GitHub</h4>
+            </Link>
+          </div>
         </div>
-
       </div>
       <div className='row mt-3 p-3'>
         <div className='col-md-5'>
