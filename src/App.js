@@ -13,15 +13,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-        <Link to="aboutme"
-          className='home-btn col btn m-3'
-          activeClass='active'
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500} >
-          <h3><strong>About Me</strong></h3>
-        </Link>
+        <a href='#aboutme' >Try this</a>
         <HomeComp />
         <NavBarComp />
         <AboutMeComp id='aboutme' />
