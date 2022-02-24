@@ -1,10 +1,7 @@
 import './App.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Switch, Route } from 'react-router-dom'
 
-import HomeComp from './components/HomeComp';
-import NavBarComp from './components/NavBarComp';
-import AboutMeComp from './components/AboutMeComp';
-import React from 'react';
+
 
 ////////////////////////////////////////////////////
 //  ROOT APPLICATION
@@ -12,12 +9,22 @@ import React from 'react';
 
 function App() {
   return (
-    <div>
-        <a href='#aboutme' >Try this</a>
-        <HomeComp />
-        <NavBarComp />
-        <AboutMeComp id='aboutme' />
-    </div>
+    <Switch>
+      <Route exact path="/">
+      </Route>
+      <div className='bg-white'>
+        <Route exact path="/aboutme">
+          <NavBarComp />
+        </Route>
+        <Route exact path="/projects">
+          <NavBarComp />
+        </Route>
+        <Route exact path="/contactinfo">
+          <NavBarComp />
+        </Route>
+
+      </div>
+    </Switch>
   );
 }
 

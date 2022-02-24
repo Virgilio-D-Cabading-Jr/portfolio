@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
+import TopicButtonComp from './TopicButtonComp';
+
 ////////////////////////////////////////////////////
-//  ABOUT ME COMP
+//  ABOUT ME VIEW
 ////////////////////////////////////////////////////
 
 const AboutMeComp = () => {
