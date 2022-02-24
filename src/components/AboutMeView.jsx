@@ -17,7 +17,7 @@ const AboutMeView = () => {
     {
       name: "I am a Quick Learner",
       picHeader: "https://i.ibb.co/6BD61Gf/about-me-coding-dojo-1.jpg",
-      content: "I recently graduated from the Coding Dojo full-stack developer program.  During those four months of intense study, I was able to achieve to learn and gain black belts in Java and Javascript, which are the highest achievement possible to receive for those stacks."
+      content: "I recently graduated from the Coding Dojo full-stack developer program.  During those four months of intense study, I was able to learn and gain black belts in Java and Javascript, which are the highest achievements possible for those stacks."
     },
     {
       name: "I am a Team Player",

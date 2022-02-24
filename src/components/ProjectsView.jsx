@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 ////////////////////////////////////////////////////
 //  PROJECTS VIEW
@@ -25,14 +24,14 @@ const ProjectsView = () => {
             <li>Planned and implemented a stack based memory tool with dynamic game play</li>
           </ul>
           <div className='row'>
-            <Link className='col btn text-danger'
-              to="http://18.188.120.249/">
+            <a className='col btn text-danger'
+              href="http://18.188.120.249/">
               <h4>Live App</h4>
-            </Link>
-            <Link className='col btn text-danger'
-              to="https://github.com/Virgilio-D-Cabading-Jr/Scrutineer">
+            </a>
+            <a className='col btn text-danger'
+              href="https://github.com/Virgilio-D-Cabading-Jr/Scrutineer">
               <h4>GitHub</h4>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -50,8 +49,17 @@ const ProjectsView = () => {
             <li>Created a search bar with the ability to retrieve cakes from the database using search parameters</li>
             <li>Deployed to AWS EC2 instance using SSH with Gunicorn process manager and Nginx server</li>
           </ul>
+          <div className='row'>
+            <a className='col btn text-danger'
+              href="http://52.15.49.125/">
+              <h4>Live App</h4>
+            </a>
+            <a className='col btn text-danger'
+              href="https://github.com/Virgilio-D-Cabading-Jr/Python_aBakery">
+              <h4>GitHub</h4>
+            </a>
+          </div>
         </div>
-
       </div>
     </div>
   </div>)
