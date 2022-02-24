@@ -17,20 +17,20 @@ function App() {
       <Route exact path="/">
         <HomeView />
       </Route>
-      <div className='bg-white'>
+      {/* <div className='bg-white'>
         <Route exact path="/aboutme">
           <NavBarComp />
           <AboutMeView />
         </Route>
-        {/* <Route exact path="/projects">
+        <Route exact path="/projects">
           <NavBarComp />
           <ProjectsView />
         </Route>
         <Route exact path="/contactinfo">
           <NavBarComp />
           <ContactInfoView />
-        </Route> */}
-      </div>
+        </Route>
+      </div> */}
     </Switch>
   );
 }
