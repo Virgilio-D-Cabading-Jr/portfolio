@@ -23,7 +23,9 @@ const ContactInfoView = () => {
           <img className='img-thumb' src="https://i.ibb.co/q7rkpRS/resume-thumb.png" alt="resume" />
         </div>
         <div className='col-9'>
-          <a href="https://drive.google.com/file/d/1eQ47OPjhQiiqSZ0uY7EXeNV61AGn1TFo/view">
+          <a href="https://drive.google.com/file/d/1eQ47OPjhQiiqSZ0uY7EXeNV61AGn1TFo/view"
+              target="_blank"
+              rel="noopener noreferrer">
             <h3>Resume</h3>
           </a>
         </div>
@@ -34,7 +36,9 @@ const ContactInfoView = () => {
           <img className='img-thumb' src="https://i.ibb.co/GdgpdcM/linkedin-thumb.png" alt="linkedIn" />
         </div>
         <div className='col-9'>
-          <a href="https://www.linkedin.com/in/virgilio-cabading/">
+          <a href="https://www.linkedin.com/in/virgilio-cabading/" 
+              target="_blank"
+              rel="noopener noreferrer">
             <h3>LinkedIn profile</h3>
           </a>
         </div>
@@ -45,7 +49,9 @@ const ContactInfoView = () => {
           <img className='img-thumb' src="https://i.ibb.co/YyrzZzL/github-thumb.png" alt="github" />
         </div>
         <div className='col-9'>
-          <a href="https://github.com/Virgilio-D-Cabading-Jr">
+          <a href="https://github.com/Virgilio-D-Cabading-Jr"
+              target="_blank"
+              rel="noopener noreferrer">
             <h3>GitHub Repository</h3>
           </a>
         </div>
