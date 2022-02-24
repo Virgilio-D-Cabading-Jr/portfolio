@@ -4,7 +4,7 @@ import React from 'react'
 //  CONTACT INFO VIEW
 ////////////////////////////////////////////////////
 
-const ContactInfoComp = () => {
+const ContactInfoView = () => {
   return (<div>
     <div className='container mt-2'>
       <h1>Contact Information</h1>
@@ -54,4 +54,4 @@ const ContactInfoComp = () => {
   </div>)
 }
 
-export default ContactInfoComp
+export default ContactInfoView

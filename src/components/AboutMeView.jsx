@@ -7,7 +7,7 @@ import TopicButtonComp from './TopicButtonComp';
 //  ABOUT ME VIEW
 ////////////////////////////////////////////////////
 
-const AboutMeComp = () => {
+const AboutMeView = () => {
   // **** Fields ********
 
   const [topics, settopics] = useState([
@@ -62,4 +62,4 @@ const AboutMeComp = () => {
   </div>)
 }
 
-export default AboutMeComp
+export default AboutMeView

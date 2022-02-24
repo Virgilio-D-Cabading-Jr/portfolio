@@ -4,7 +4,7 @@ import React from 'react'
 //  PROJECTS VIEW
 ////////////////////////////////////////////////////
 
-const ProjectsComp = () => {
+const ProjectsView = () => {
   return (<div>
     <div className='container mt-2'>
       <h1>Projects</h1>
@@ -47,4 +47,4 @@ const ProjectsComp = () => {
   </div>)
 }
 
-export default ProjectsComp
+export default ProjectsView
