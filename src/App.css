@@ -15,11 +15,12 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh;
   /* overflow: scroll; */
 }
 
 .main-pic {
-  width: 40vh;
+  height: 33vh;
   border-radius: 50%;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .main-name {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 /* Nav Bar */
