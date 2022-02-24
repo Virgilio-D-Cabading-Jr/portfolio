@@ -14,9 +14,9 @@ import ContactInfoView from './components/ContactInfoView';
 function App() {
   return (
     <Switch>
-      <Route exact path="/">
+      {/* <Route exact path="/"> */}
         <HomeView />
-      </Route>
+      {/* </Route>
       <div className='bg-white'>
         <Route exact path="/aboutme">
           <NavBarComp />
@@ -30,7 +30,7 @@ function App() {
           <NavBarComp />
           <ContactInfoView />
         </Route>
-      </div>
+      </div> */}
     </Switch>
   );
 }
