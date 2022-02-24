@@ -13,7 +13,6 @@ import React from 'react';
 function App() {
   return (
     <div>
-      <React.Fragment>
         <Link to="aboutme"
           className='home-btn col btn m-3'
           activeClass='active'
@@ -26,7 +25,6 @@ function App() {
         <HomeComp />
         <NavBarComp />
         <AboutMeComp id='aboutme' />
-      </React.Fragment>
     </div>
   );
 }
