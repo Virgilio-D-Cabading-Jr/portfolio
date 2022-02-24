@@ -25,11 +25,13 @@ const ProjectsView = () => {
           </ul>
           <div className='row'>
             <a className='col btn text-danger'
-              href="http://18.188.120.249/">
+              href="http://18.188.120.249/"
+              target="_blank" >
               <h4>Live App</h4>
             </a>
-            <a className='col btn text-danger'
-              href="https://github.com/Virgilio-D-Cabading-Jr/Scrutineer">
+            <a  className='col btn text-danger'
+                href="https://github.com/Virgilio-D-Cabading-Jr/Scrutineer"
+                target="_blank" >
               <h4>GitHub</h4>
             </a>
           </div>
@@ -51,11 +53,13 @@ const ProjectsView = () => {
           </ul>
           <div className='row'>
             <a className='col btn text-danger'
-              href="http://52.15.49.125/">
+                href="http://52.15.49.125/"
+                target="_blank">
               <h4>Live App</h4>
             </a>
             <a className='col btn text-danger'
-              href="https://github.com/Virgilio-D-Cabading-Jr/Python_aBakery">
+                href="https://github.com/Virgilio-D-Cabading-Jr/Python_aBakery"
+                target="_blank">
               <h4>GitHub</h4>
             </a>
           </div>
