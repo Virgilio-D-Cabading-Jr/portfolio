@@ -17,7 +17,7 @@ function App() {
       <Route exact path="/">
         <HomeView />
       </Route>
-      <div className='bg-white'>
+      {/* <div className='bg-white'>
         <Route exact path="/aboutme">
           <NavBarComp />
           <AboutMeView />
@@ -30,8 +30,7 @@ function App() {
           <NavBarComp />
           <ContactInfoView />
         </Route>
-
-      </div>
+      </div> */}
     </Switch>
   );
 }
