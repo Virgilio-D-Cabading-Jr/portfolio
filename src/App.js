@@ -16,9 +16,7 @@ function App() {
       <React.Fragment>
         <HomeComp />
         <NavBarComp />
-        <Element id='aboutme' name='aboutme' >
-          <AboutMeComp />
-        </Element>
+          <AboutMeComp id='aboutme' />
       </React.Fragment>
     </div>
   );
