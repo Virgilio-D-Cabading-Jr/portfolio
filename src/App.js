@@ -1,5 +1,5 @@
 import './App.css';
-import { Element } from 'react-scroll';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import HomeComp from './components/HomeComp';
 import NavBarComp from './components/NavBarComp';
@@ -14,9 +14,18 @@ function App() {
   return (
     <div>
       <React.Fragment>
+        <Link to="aboutme"
+          className='home-btn col btn m-3'
+          activeClass='active'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500} >
+          <h3><strong>About Me</strong></h3>
+        </Link>
         <HomeComp />
         <NavBarComp />
-          <AboutMeComp id='aboutme' />
+        <AboutMeComp id='aboutme' />
       </React.Fragment>
     </div>
   );
