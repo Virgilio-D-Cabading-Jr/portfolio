@@ -13,7 +13,7 @@ const HomeView = () => {
         <div className=''>
           <h1 className='main-name text-yellow mt-3'><strong>Virgilio D. Cabading Jr.</strong></h1>
           <h1>Software Developer</h1>
-          <p>Hello, I am a highly motivated Software Developer transitioning from the healthcare industry<br/>with a B.S. in Informatics.  My interests are many, but I am currently interested in<br/>expanding my knowledge on building a React.js front-end with Express(MongoDB) or Java(MySQL) backend along with learning DevOps for AWS and Azure</p>
+          <p>Hello, I am a highly motivated Software Developer transitioning from the healthcare industry<br/>with a B.S. in Informatics.  My interests are many, but I am currently interested in<br/>expanding my knowledge on building a React.js front-end with various backend frameworks along with DevOps.</p>
         </div>
         <div className='btn-row row'>
           <Link to="/aboutme" className='home-btn col btn m-3' ><h3>About Me</h3></Link>
