@@ -38,7 +38,7 @@ const AboutMeView = () => {
     <div className='container my-2'>
       <h1>About Me</h1>
       <div className='row align-items-center'>
-        <img className='main-pic col-md-3' src='https://i.ibb.co/q5795Ky/val-self-comp-office-450-2022-03.jpg' alt='virgilio profile picture' />
+        <img className='main-pic col-md-3' src='https://i.ibb.co/ypvmXRr/val-self-comp-office-450-v2-2022-03.jpg' alt='virgilio profile picture' />
         <h4 className='col-md-8 text-center'>Hello, I am Virgilio Cabading.<br />I am a highly motivated Software Developer<br />transitioning from the healthcare industry</h4>
       </div>
       <div className='row'>
