@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 ////////////////////////////////////////////////////
 //  ABOUT ME VIEW
@@ -49,7 +49,7 @@ const AboutMeView = () => {
               colClass = "col-md m-1 rounded"
             }
             return <div className={colClass}>
-              <img className='topic-pic-header rounded' src={topic.picHeader} alt={currentTopic.name} />
+              <img className='topic-pic-header rounded' src={topic.picHeader} alt={topics[0].name} />
               <h3 className='mt-2 text-center'>{topic.name}</h3>
               <p>{topic.content}</p>
             </div>
