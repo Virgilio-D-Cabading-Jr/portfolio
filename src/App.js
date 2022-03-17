@@ -1,8 +1,7 @@
 import './App.css';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom';
 
 import HomeView from './components/HomeView';
-import NavBarComp from './components/NavBarComp';
 import AboutMeView from './components/AboutMeView';
 import ProjectsView from './components/ProjectsView';
 import ContactInfoView from './components/ContactInfoView';
@@ -11,26 +10,28 @@ import ContactInfoView from './components/ContactInfoView';
 //  ROOT APPLICATION
 ////////////////////////////////////////////////////
 
-function App() {
+const App = () => {
   return (
     <Switch>
-      <Route exact path="/portfolio/">
-        <HomeView />
-      </Route>
-      <div className='bg-white'>
-        <Route exact path="/portfolio/aboutme">
-          <NavBarComp />
+      <Route exact path="/">
+        <div id='title'>
+          <HomeView />
+        </div>
+        <div id='aboutme'>
+          <div className='add-space-top' />
           <AboutMeView />
-        </Route>
-        <Route exact path="/portfolio/projects">
-          <NavBarComp />
+        </div>
+        <div className='bg-world-01' />
+        <div id='projects'>
+          <div className='add-space-top' />
           <ProjectsView />
-        </Route>
-        <Route exact path="/portfolio/contactinfo">
-          <NavBarComp />
+        </div>
+        <div className='bg-makati-skyline' />
+        <div id='contactinfo'>
+          <div className='add-space-top' />
           <ContactInfoView />
-        </Route>
-      </div>
+        </div>
+      </Route>
     </Switch>
   );
 }

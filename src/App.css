@@ -10,17 +10,45 @@
 /* Home View */
 
 .bg-makati {
-  background: url("https://i.ibb.co/M1jbK1K/World-1-and-0-blue.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
+  background: rgb(8,5,75);
+  background: linear-gradient(120deg, rgba(8,5,75,1) 0%, rgba(76,76,205,1) 40%, rgba(8,5,75,1) 100%);
+  /* background: url("https://i.ibb.co/M1jbK1K/World-1-and-0-blue.jpg") no-repeat center center fixed; */
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+  height: 100vh;
+  /* overflow: scroll; */
+}
+
+.bg-world-01 {
+  background: url("https://i.ibb.co/M1jbK1K/World-1-and-0-blue.jpg") no-repeat center center fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  background-size: cover;
+  height: 30vh;
+  /* overflow: scroll; */
+}
+
+.bg-makati-skyline {
+  background: url("https://i.ibb.co/LxsnpKT/Makati-night-sky-2022-1.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 40vh;
+}
+
+.bg-manila-harbor {
+  background: url("https://i.ibb.co/mNV1w10/manila-harbor-v202203090530.jpg") no-repeat center center fixed;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
   background-size: cover;
   height: 100vh;
   /* overflow: scroll; */
 }
 
 .main-pic {
-  height: 33vh;
+  width: 30vh;
   border-radius: 50%;
 }
 
@@ -41,10 +69,22 @@
 }
 
 .main-name {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 /* Nav Bar */
+
+.at-top {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.add-space-top {
+  height:12vh;
+}
 
 .bg-navy-gradient {
   background: rgb(8,5,75);
@@ -64,6 +104,8 @@
   background-color: yellow;
   color: navy;
 }
+
+
 
 /* About Me View */
 
