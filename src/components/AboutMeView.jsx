@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
 
 ////////////////////////////////////////////////////
 //  ABOUT ME VIEW
@@ -8,7 +7,7 @@ import { Link } from 'react-router-dom';
 const AboutMeView = () => {
   // **** Fields ********
 
-  const [topics, settopics] = useState([
+  const topics = [
     {
       name: "I am a Developer",
       picHeader: "https://i.ibb.co/DgMcqKB/aboutme-developer.gif",
@@ -29,8 +28,7 @@ const AboutMeView = () => {
       picHeader: "https://i.ibb.co/MsgpzH2/about-me-educated-1450.jpg",
       content: "I graduated near the top of my class with a Bachelor's of Science in Informatics from Baylor University College of Engineering and Computer Science.  Four years of hard work led to two years on-hand experience with programming in C, C++, and Java along with an appreciation for and ability to implement various algorithms and data structures."
     }
-  ]);
-  const [currentTopic, setCurrentTopic] = useState(topics[0]);
+  ];
 
   console.log("In About me, Topic", topics);
 
@@ -38,7 +36,7 @@ const AboutMeView = () => {
     <div className='container my-2'>
       <h1>About Me</h1>
       <div className='row align-items-center'>
-        <img className='main-pic col-md-3' src='https://i.ibb.co/ypvmXRr/val-self-comp-office-450-v2-2022-03.jpg' alt='virgilio profile picture' />
+        <img className='main-pic col-md-3' src='https://i.ibb.co/ypvmXRr/val-self-comp-office-450-v2-2022-03.jpg' alt='virgilio profile' />
         <h4 className='col-md-8 text-center'>Hello, I am Virgilio Cabading.<br />I am a highly motivated Software Developer<br />transitioning from the healthcare industry</h4>
       </div>
       <div className='row'>
