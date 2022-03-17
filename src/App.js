@@ -13,7 +13,7 @@ import ContactInfoView from './components/ContactInfoView';
 const App = () => {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/portfolio/">
         <div id='title'>
           <HomeView />
         </div>
