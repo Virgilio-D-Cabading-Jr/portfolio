@@ -2,12 +2,13 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 
 import HomeView from './components/HomeView';
+import Navbar from './components/Navbar';
 import AboutMeView from './components/AboutMeView';
 import ProjectsView from './components/ProjectsView';
 import ContactInfoView from './components/ContactInfoView';
 
 ////////////////////////////////////////////////////
-//  ROOT APPLICATION
+//  App.js
 ////////////////////////////////////////////////////
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <div id='title'>
           <HomeView />
         </div>
+        <Navbar />
         <div id='aboutme'>
           <div className='add-space-top' />
           <AboutMeView />
