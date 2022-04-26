@@ -28,14 +28,12 @@ const ContactInfoView = () => {
       </div>
       {/* LinkedIn */}
       <div className='row m-3'>
-        <div className='col-3 d-flex justify-content-end'>
-          <img className='img-thumb' src="https://i.ibb.co/GdgpdcM/linkedin-thumb.png" alt="linkedIn" />
-        </div>
+        <img className='col-1' src="https://i.ibb.co/GdgpdcM/linkedin-thumb.png" alt="linkedIn" />
         <div className='col-9'>
           <a href="https://www.linkedin.com/in/virgilio-cabading/" 
               target="_blank"
               rel="noopener noreferrer">
-            <h3>LinkedIn profile</h3>
+            <h3 className='text-light'>LinkedIn profile</h3>
           </a>
         </div>
       </div>
