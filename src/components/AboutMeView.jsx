@@ -15,12 +15,12 @@ const AboutMeView = () => {
     },
     {
       name: "I am a Team Player",
-      picHeader: "https://i.ibb.co/9WFvsG6/healthcare-team-experience.jpg",
+      picHeader: "https://lh3.googleusercontent.com/pw/AM-JKLXvM3nbBlxWK1dq0v_xX8mGjwHFsioAbU8S7idf0Lz-3CjaTG2s37ZrTO67_2_jXc2w-RNzD6YOfqdxuCxTmZ0QYwj6N3GqaBPL03Le3ZUI3feSC_dHe7ZMx4R59nZnVcOYh7ILmf8Qm62JLqrPsSit=s538-no?authuser=0",
       content: "My experience in working in the healthcare field thought me the importance of communicating between all staff members.  In the healthcare field, minor lapses in communication may lead to life or death consequences.  My appreciation for clear communication lead to the position of SCRUM leader during project implementation in Coding Dojo."
     },
     {
       name: "I am a Developer",
-      picHeader: "https://i.ibb.co/DgMcqKB/aboutme-developer.gif",
+      picHeader: "https://lh3.googleusercontent.com/pw/AM-JKLVTR898I-h0F9q-gdgdpIPA2vdlcCaAPAF3oBc-iwXYJcDfXsdYDgnaBuabfNhop5mlApOI4rukPPuvz4b_S7QMUJ0UA6nznxBgP8DaROCs8H1vRvYTIIwBYM4t5adf6qTbgCfIXOJ3Qo-E7fE7YecV=s625-no?authuser=0",
       content: "I am able to plan, implent, and deploy full stack web applications using the Javascript (MERN framework), Java (Spring Boot framework), and Python (Flask Framework).  I excel in Using the Agile / SCRUM Development Process from planning, to implementing and deploying."
     },
   ];
