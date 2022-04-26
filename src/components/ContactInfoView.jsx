@@ -20,9 +20,9 @@ const ContactInfoView = () => {
       </div>
       {/* Resume */}
       <div className='row m-3'>
-        <img className='col-1' src="https://drive.google.com/file/d/1NYiBUnbm4hnguZRXPZT1f0l45VhnUGDD/view?usp=sharing" alt="resume" />
+        <img className='col-1' src="https://i.ibb.co/q7rkpRS/resume-thumb.png" alt="resume" />
         <div className='col-9'>
-          <a href="https://drive.google.com/file/d/1zNYGycxB7ivAclbv6XxiJojFpPPK-h0B/view?usp=sharing"
+          <a href="https://virgilio-d-cabading-jr.github.io/portfolio/"
               target="_blank"
               rel="noopener noreferrer">
             <h3 className='text-light'>Resume</h3>
