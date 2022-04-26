@@ -8,6 +8,9 @@ const ContactInfoView = () => {
   return (<div>
     <div className='container mt-2'>
       <h1>Contact Information</h1>
+      <hr/>
+      <p>Want to discuss a project or just want to say hi?  My inbox is always open. 📧</p>
+      <br/><br/>
       {/* Email */}
       <div className='row m-3'>
         <img className='col-1' src="https://i.ibb.co/3M8NM8j/email-thumb.png" alt="email" />
