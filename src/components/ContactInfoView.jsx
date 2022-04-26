@@ -39,14 +39,12 @@ const ContactInfoView = () => {
       </div>
       {/* GitHub */}
       <div className='row m-3'>
-        <div className='col-3 d-flex justify-content-end'>
-          <img className='img-thumb' src="https://i.ibb.co/YyrzZzL/github-thumb.png" alt="github" />
-        </div>
+        <img className='col-1' src="https://i.ibb.co/YyrzZzL/github-thumb.png" alt="github" />
         <div className='col-9'>
           <a href="https://github.com/Virgilio-D-Cabading-Jr"
               target="_blank"
               rel="noopener noreferrer">
-            <h3>GitHub Repository</h3>
+            <h3 className='text-light'>GitHub Repository</h3>
           </a>
         </div>
       </div>
