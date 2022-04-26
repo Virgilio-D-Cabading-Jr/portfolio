@@ -113,10 +113,13 @@
   background-color: dodgerblue;
 }
 
-.topic-pic-header {
-  width: 100%;
-  height: auto;
-  margin-top: 2%;
+.bg-gunmetalgrey {
+  background-color: rgb(44,53,57);
+  color: whitesmoke;
+}
+
+.topic-pic {
+  border-radius: 50%;
 }
 
 .text-linen {
