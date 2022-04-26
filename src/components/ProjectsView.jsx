@@ -8,29 +8,20 @@ const ProjectsView = () => {
   return (<div>
     <div className='container mt-2'>
       <h1>Projects</h1>
-      <div className='row my-3 bg-lblue text-linen rounded p-3'>
-        <div className='col-md-5'>
-          <h2>Scrutineer</h2>
+      <div className='row my-3 p-3'>
+        <div className='col-md p-r border round m-2'>
           <img className='project-screenshot' src="https://i.ibb.co/J2tKVLx/project-scrutineer-screenshot-1.jpg" alt="scrutineer screenshot" />
-        </div>
-        <div className='col-md-7'>
-          <h4>Web Application for Digital Memorization and Studying of Objects</h4>
+          <h2>Scrutineer</h2>
           <hr />
-          <ul>
-            <li>Developed a React front-end using bootstrap to create a Reponsive Web Design</li>
-            <li>Developed an Express, Mongoose API back-end with MongoDB [NoSQL] database</li>
-            <li>Deployed to AWS EC2 instance using SSH with Nginx server</li>
-            <li>Served as SCRUM leader in Agile Development process</li>
-            <li>Planned and implemented a stack based memory tool with dynamic game play</li>
-          </ul>
+          <p>Web Application for Digital Memorization and Studying of Objects</p>
           <div className='row'>
-            <a className='col btn text-danger'
+            <a className='col btn text-light'
               href="http://18.188.120.249/"
               target="_blank"
               rel="noopener noreferrer" >
               <h4>Live App</h4>
             </a>
-            <a  className='col btn text-danger'
+            <a  className='col btn text-light'
                 href="https://github.com/Virgilio-D-Cabading-Jr/Scrutineer"
                 target="_blank"
                 rel="noopener noreferrer" >
@@ -38,29 +29,19 @@ const ProjectsView = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className='row mt-3 p-3'>
-        <div className='col-md-5'>
+        <div className='col-md p-3 border round m-2'>
+        <img className='project-screenshot' src="https://i.ibb.co/d4rfFJS/project-abakery-screenshot-1.jpg" alt="aBakery screenshot" />
           <h2>aBakery</h2>
-          <img className='project-screenshot' src="https://i.ibb.co/d4rfFJS/project-abakery-screenshot-1.jpg" alt="aBakery screenshot" />
-        </div>
-        <div className='col-md-7'>
-          <h4>Web Application for a Fondant Cake Shop that allows for quick searching of cake designs</h4>
           <hr />
-          <ul>
-            <li>Designed and implemented a Python based web server with Flask Framework and jinja notation with RESTful routing architecture</li>
-            <li>Developed back end with MySQL database with Full CRUD functionality and MVC design</li>
-            <li>Created a search bar with the ability to retrieve cakes from the database using search parameters</li>
-            <li>Deployed to AWS EC2 instance using SSH with Gunicorn process manager and Nginx server</li>
-          </ul>
+          <p>Web Application for a Fondant Cake Shop that allows for quick searching of cake designs</p>
           <div className='row'>
-            <a className='col btn text-danger'
+            <a className='col btn text-light'
                 href="http://52.15.49.125/"
                 target="_blank"
                 rel="noopener noreferrer">
               <h4>Live App</h4>
             </a>
-            <a className='col btn text-danger'
+            <a className='col btn text-light'
                 href="https://github.com/Virgilio-D-Cabading-Jr/Python_aBakery"
                 target="_blank"
                 rel="noopener noreferrer">
@@ -69,6 +50,7 @@ const ProjectsView = () => {
           </div>
         </div>
       </div>
+    
     </div>
   </div>)
 }
